@@ -1,0 +1,32 @@
+---
+layout: blog
+title: Blog
+---
+<h1>Latest Posts</h1>
+
+  {% for post in site.posts %}
+    <article class="post">
+            <header>
+                <div class="title">
+                    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                    <!--<p>AWS JAVASCRIPT NODE.JS SNS WEBSOCKETS</p> -->
+                </div>
+                <div class="meta">
+                    <time class="published" datetime="{{ post.datetime }}">{{ post.prettyDate }}</time>
+                    <a href="#" class="author"><span class="name">{{ post.authorName }}</span><img src="{{ post.authorPic }}" alt="" /></a>
+                </div>
+            </header>
+            <a href="{{ post.url }}" class="image featured"><img src="{{ post.titlePic }}" alt="" /></a>
+            <p>{{ post.excerpt }}</p>
+            <footer>
+                <ul class="actions">
+                    <li><a href="{{ post.url }}" class="button large">Continue Reading</a></li>
+                </ul>
+                <ul class="stats">
+                    <li><a href="#">General</a></li>
+                    <li><a href="#" class="icon fa-heart">28</a></li>
+                    <li><a href="#" class="icon fa-comment">128</a></li>
+                </ul>
+            </footer>
+        </article>
+  {% endfor %}
