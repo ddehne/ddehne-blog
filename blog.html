@@ -8,7 +8,7 @@ title: Blog
     <article class="post">
             <header>
                 <div class="title">
-                    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                    <h2><a href="{{ post.link }}">{{ post.title }}</a></h2>
                     <!--<p>AWS JAVASCRIPT NODE.JS SNS WEBSOCKETS</p> -->
                 </div>
                 <div class="meta">
@@ -16,11 +16,11 @@ title: Blog
                     <a href="#" class="author"><span class="name">{{ post.authorName }}</span><img src="{{ post.authorPic }}" alt="" /></a>
                 </div>
             </header>
-            <a href="{{ post.url }}" class="image featured"><img src="{{ post.titlePic }}" alt="" /></a>
+            <a href="{{ post.link }}" class="image featured"><img src="{{ post.titlePic }}" alt="" /></a>
             <p>{{ post.excerpt }}</p>
             <footer>
                 <ul class="actions">
-                    <li><a href="{{ post.url }}" class="button large">Continue Reading</a></li>
+                    <li><a href="{{ post.link }}" class="button large">Continue Reading</a></li>
                 </ul>
                 <ul class="stats">
                     <li><a href="#">General</a></li>
