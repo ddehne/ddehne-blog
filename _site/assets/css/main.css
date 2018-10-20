@@ -3288,6 +3288,10 @@ input, select, textarea {
 					display: none;
 				}
 
+				#header .menu {
+					display: none;
+				}
+
 		}
 
 /* Wrapper */
