@@ -3273,6 +3273,18 @@ input, select, textarea {
 
 		}
 
+		@media screen and (min-width: 980px) {
+
+			#header .links {
+				display: none;
+			}
+
+			#header .menu-btn {
+				display: none;
+			}
+
+		}
+
 		@media screen and (max-width: 736px) {
 
 			#header {
@@ -3287,11 +3299,6 @@ input, select, textarea {
 				#header .main .search {
 					display: none;
 				}
-
-				#header .menu {
-					display: none;
-				}
-
 		}
 
 /* Wrapper */
