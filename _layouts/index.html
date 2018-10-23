@@ -81,7 +81,7 @@
 										<a href="#" class="author"><span class="name">David Dehne</span><img src="assets/images/avatar.jpg" alt="" /></a>
 									</div>
 								</header>
-								<a href="single.html" class="image featured"><img src="assets/images/clouds-cornfield-countryside-158827-e1523134005820-1000x500.jpg" alt="" /></a>
+								<a href="{{ site.baseurl }}{% post_url 2018-05-04-aws-sns-broadcast %}" class="image featured"><img src="assets/images/clouds-cornfield-countryside-158827-e1523134005820-1000x500.jpg" alt="" /></a>
 								<p>Recently, at a client site, my team was in need of integrating real-time broadcast capability to a browser-based interface (written in React). To achieve this, we decided on establishing a persistent websocket connection between the client interface and an EC2 instance running a Node.js server. The SNS topic would then send an HTTP Post to that server on broadcast. In this post I will guide you through the process of creating a bare-bones sample SNS real-time broadcast application for your front-end application of choice.
 
 									TL;DR here’s a Git repo with the completed project code.
