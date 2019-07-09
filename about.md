@@ -7,6 +7,6 @@ permalink: /about/
 
 # About me
 
-readmeaI’m a computer programmer based in Minneapolis. I specialize in full-stack application development. I primarily have worked with Java, Javascript, Spring, HTML/CSS, and various Unit Testing frameworks.
+I’m a computer programmer based in Minneapolis. I specialize in full-stack application development. I primarily have worked with Java, Javascript, Spring, HTML/CSS, and various Unit Testing frameworks.
 
 [Resume](assets/resume_1_pg.pdf)
